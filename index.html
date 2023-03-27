@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+<title>CSS-TEXT</title>
+</head>
+<style>
+*{
+padding:0;
+margin:0;
+
+}
+h1{
+padding:5px;
+}
+p{
+padding:5px;
+}
+#text p:first-child{
+color:red;
+}
+#text p:nth-child(2){
+color:#ACA6F0;
+}
+#text p:nth-child(3){
+color:rgb(245, 36, 242 );}
+
+#text p:last-child{
+color:rgba(10, 225, 3 ,0.3  );}
+
+.text-align h1{
+text-align:center;
+}
+.text-align p{
+text-align:justify;
+}
+.text-align :nth-child(8){
+text-align-last:right;
+}
+.text-align :nth-child(9){
+text-align-last:center;
+}
+.text-align :nth-child(10){
+text-align-last:left;
+}
+
+.text-align :nth-child(12) {
+direction:rtl;
+unicode-bidi:bidi-override;
+
+}
+.text-align span{
+Vertical-align:text-bottom;
+}
+#text-decor li:nth-child(2){
+text-decoration-line:overline;
+text-decoration-color:red;
+}
+#text-decor li:nth-child(3){
+text-decoration-line:underline;
+text-decoration-style: dotted;
+
+}
+#text-decor li:nth-child(4){
+text-decoration-line:line-through;
+text-decoration-thickness:5px;
+}
+#text-decor li:nth-child(5){
+text-decoration-line:overline underline;
+text-decoration-color:purple;
+text-decoration-style:wavy;
+}
+.trans ul li:first-child{
+text-transform:uppercase;
+}
+.trans ul li:last-child{
+text-transform:capitalize;
+}
+.spacing :nth-child(3){
+text-indent:60px;
+letter-spacing:5px;
+line-height:25px;
+word-spacing:10px;
+
+}
+
+.spacing :nth-child(4){
+white-space:nowrap;
+}
+
+.shadow h1{
+color:white;
+text-shadow:3px 3px 5px rgb(225, 3, 80 ),3px 3px 3px #03E132;
+}
+
+</style>
+<body>
+<h1>CSS-COLORS</h1>
+<div id="text">
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum
+</p>
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum
+</p>
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum
+</p>
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum
+</p>
+</div>
+<hr>
+<div class="text-align">
+<h1>TEXT-ALIGNMENT</h1>
+<li>text-align</li>
+<li>text-align-last</li>
+<li>direction</li>
+<li>unicode-bidi</li>
+<li>vertical-align</li>
+<h2>text-align-last</h2>
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum
+</P>
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum
+</P>
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum
+</P>
+<h2>direction & unicode-bidi</h2>
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire.
+</P>
+<h2>Vertical-align</h2>
+
+<p>Contrairement à une<span>opinion répandue</span>, le Lorem Ipsum n'est pas simplement du texte aléatoire.</p>
+</div>
+<hr>
+<div id="text-decor">
+<h1>TEXT-DECORATION</h1>
+<li>text-decoration-line</li>
+<li>text-decoration-color</li>
+<li>text-decoration-style</li>
+<li>text-decoration-thickness</li>
+</div>
+<hr>
+<div class="trans">
+<h1>TEXT TRANSFORMATION</h1>
+<ul>
+<li>lower case</li>
+<li>upper case</li>
+<li>capitalize</li>
+</ul>
+</div>
+<hr>
+<div class="spacing">
+<h1>TEXT-SPACING</h1>
+<h3>text-indent</h3>
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum
+</p>
+<p>
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum
+</p>
+</div>
+<div class="shadow">
+<h1>TEXT-SHADOW</h1>
+</div>
+</body>
+</html>
